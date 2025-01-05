@@ -28,11 +28,8 @@ public class MergeSort {
             j++;
         }
 
-        // System.out.println(left + " " + right);
         for (int k = 0; k < temp.size(); k++)
             arr[k + start] = temp.get(k);
-        // System.out.println(temp);
-
     }
 
     public static void sort(int arr[], int start, int end) {
